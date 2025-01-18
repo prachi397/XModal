@@ -50,7 +50,6 @@ const FormModal = ({setIsModalOpen}) => {
         setEmail('');
         setPhone('');
         setDob('');
-        setIsModalOpen(false);
     }
   }
   return (
