@@ -46,7 +46,6 @@ const FormModal = ({setIsModalOpen}) => {
   function handleFormSubmit(e){
     e.preventDefault();
     if(validation()){
-        alert("Form submitted successfully!");
         setUserName('');
         setEmail('');
         setPhone('');
